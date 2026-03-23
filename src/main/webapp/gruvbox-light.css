@@ -1,0 +1,15 @@
+@import "gruvbox.css";
+
+[data-theme^=gruvbox-light], .app-theme-picker__picker[data-theme^=gruvbox-light] {
+  color-scheme: light;
+  --gruvbox-red: #9d0006;
+  --gruvbox-green: #79740e;
+  --gruvbox-yellow: #b57614;
+  --gruvbox-blue: #076678;
+  --gruvbox-purple: #8f3f71;
+  --gruvbox-purple2: #b16286;
+  --gruvbox-aqua: #427b58;
+  --gruvbox-aqua2: #689d6a;
+  --gruvbox-orange: #af3a03;
+  --gruvbox-gray: #7c6f64;
+}

@@ -14,6 +14,9 @@ import org.kohsuke.stapler.StaplerResponse2;
 public class GruvboxRootAction implements UnprotectedRootAction {
 
     private static final Set<String> THEMES = Set.of(
+            "gruvbox.css",
+            "gruvbox-dark.css",
+            "gruvbox-light.css",
             GruvboxDarkHardTheme.CSS,
             GruvboxDarkMediumTheme.CSS,
             GruvboxDarkSoftTheme.CSS,
