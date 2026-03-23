@@ -2,7 +2,7 @@ package io.jenkins.plugins.theme.gruvbox;
 
 import io.jenkins.plugins.thememanager.ThemeManagerFactoryDescriptor;
 
-public class GruvboxThemeDescriptor extends ThemeManagerFactoryDescriptor {
+public abstract class GruvboxThemeDescriptor extends ThemeManagerFactoryDescriptor {
     static final String ID = "gruvbox";
 
     @Override
