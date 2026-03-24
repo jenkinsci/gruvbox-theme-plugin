@@ -1,4 +1,4 @@
- package io.jenkins.plugins.theme.gruvbox;
+package io.jenkins.plugins.theme.gruvbox;
 
 import io.jenkins.plugins.thememanager.Theme;
 import io.jenkins.plugins.thememanager.ThemeManagerFactory;
