@@ -24,7 +24,6 @@ public class GruvboxRootAction implements UnprotectedRootAction {
             GruvboxLightMediumTheme.CSS,
             GruvboxLightSoftTheme.CSS);
 
-
     @Override
     public String getIconFileName() {
         return null; /* no UI */
