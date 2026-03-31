@@ -25,7 +25,12 @@ class GruvboxThemeTest {
 
     static Stream<Arguments> themeProvider() {
         return Stream.of(
-                arguments(Theme.DARKHARD), arguments(Theme.DARKMEDIUM), arguments(Theme.DARKSOFT), arguments(Theme.LIGHTHARD), arguments(Theme.LIGHTMEDIUM), arguments(Theme.LIGHTSOFT));
+                arguments(Theme.DARKHARD),
+                arguments(Theme.DARKMEDIUM),
+                arguments(Theme.DARKSOFT),
+                arguments(Theme.LIGHTHARD),
+                arguments(Theme.LIGHTMEDIUM),
+                arguments(Theme.LIGHTSOFT));
     }
 
     @ParameterizedTest(name = "{0}")

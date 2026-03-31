@@ -23,10 +23,8 @@ class AboutPage extends JenkinsPage<AboutPage> {
         screenshotDir.mkdirs();
         java.io.File screenshotFile = new java.io.File(screenshotDir, "about-" + theme.id() + ".png");
         log.info("Taking screenshot: {}", screenshotFile.getAbsolutePath());
-        page.screenshot(new Page.ScreenshotOptions()
-            .setPath(screenshotFile.toPath())
-            .setFullPage(true)
-        );
+        page.screenshot(
+                new Page.ScreenshotOptions().setPath(screenshotFile.toPath()).setFullPage(true));
         log.info("Screenshot saved: {}", screenshotFile.getAbsolutePath());
         return this;
     }
