@@ -6,9 +6,6 @@
   --text-color: var(--gruvbox-primary);
   --text-color-secondary: var(--gruvbox-secondary);
 
-  /* Breadcrumbs - Deprecated */
-  --breadcrumbs-bar-background: var(--background);
-
   /* Tabs - Deprecated */
   --tabs-background: var(--card-border-color);
   --tabs-item-background--selected: oklch(
