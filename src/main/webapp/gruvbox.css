@@ -58,11 +58,11 @@
   --green: var(--gruvbox-green);
   --blue: var(--gruvbox-blue);
   --cyan: var(--gruvbox-aqua);
-  --teal: var(--gruvbox-aqua2);
-  --indigo: var(--gruvbox-blue);
+  --teal: var(--gruvbox-teal);
+  --indigo: var(--gruvbox-indigo);
   --purple: var(--gruvbox-purple);
-  --pink: var(--gruvbox-purple2);
-  --brown: var(--gruvbox-orange);
+  --pink: var(--gruvbox-pink);
+  --brown: var(--gruvbox-brown);
 
   /* Derived variants (light/dark) */
   --light-red: oklch(from var(--red) calc(l + 0.2) c h);

@@ -6,10 +6,12 @@
   --gruvbox-green: #b8bb26;
   --gruvbox-yellow: #fabd2f;
   --gruvbox-blue: #83a598;
+  --gruvbox-indigo: #6f8faa; /* custom: Gruvbox-style indigo */
   --gruvbox-purple: #d3869b;
-  --gruvbox-purple2: #d3869b;
+  --gruvbox-pink: #e26785; /* custom: Gruvbox-style pink */
   --gruvbox-aqua: #8ec07c;
-  --gruvbox-aqua2: #8ec07c;
+  --gruvbox-teal: #89b587; /* custom: Gruvbox-style teal */
   --gruvbox-orange: #fe8019;
+  --gruvbox-brown: #b07d48; /* custom: Gruvbox-style brown */
   --gruvbox-gray: #928374;
 }
